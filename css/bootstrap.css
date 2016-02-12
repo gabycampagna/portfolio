@@ -4278,7 +4278,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   height: 50px;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 20px;
 }
 .navbar-brand:hover,
@@ -4332,6 +4332,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 20px;
 }
 @media (max-width: 767px) {
+    .subhead { 
+      display:none;
+    }
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -5974,6 +5977,9 @@ button.close {
   height: 50px;
   overflow: scroll;
 }
+
+
+
 @media (min-width: 768px) {
   .modal-dialog {
     width: 600px;
