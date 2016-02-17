@@ -3,6 +3,12 @@
   border-bottom: 6px solid rgb(20, 107, 179);
 }
 
+h1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 .icon {
   max-width: 150px;
   margin: 0 auto;
@@ -77,6 +83,22 @@ body > .container {
 .list-border ul {
   margin-left: 10px;
 }
+
+/* skill / professional/ photos - Headers */
+
+.skills-title > div, 
+.pro-title > div,  {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.photo > div {
+  font-size: 18px;
+  line-height: 2em;
+  font-weight: 400x;
+}
+
 
 /* Social Sharing */
 .btn-twitter {
