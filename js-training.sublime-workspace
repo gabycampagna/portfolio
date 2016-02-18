@@ -43,17 +43,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "Package Control Messages\n========================\n\nAdvancedNewFile\n---------------\n\n  Thank you for installing the AdvancedNewFile plugin.\n  \n  For more information please visit https://github.com/skuroda/Sublime-AdvancedNewFile.\n  \n  Note you may need to restart Sublime Text after installing this plugin.\n  \n  If you have any questions, comments, or run into issues, please let me know! Hope you enjoy the plugin.\n  \n  Thank you!\n",
-			"settings":
-			{
-				"buffer_size": 432,
-				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -276,40 +265,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"settings":
-					{
-						"buffer_size": 432,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								432,
-								432
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
