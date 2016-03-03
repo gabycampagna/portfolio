@@ -7,7 +7,7 @@ if ( ($(window).height() + 100) < $(document).height() ) {
     });
 }
  $('#top').click(function(){
-        $('html,body').animate({scrollTop:0},'slow');return false;
+        $('html,body').animate({scrollTop:0},'fast');return false;
     });
 // swap images on home page
 
