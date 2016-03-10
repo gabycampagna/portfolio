@@ -24,6 +24,33 @@ h1 {
   text-align: left;
 }
 
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.35s ease-in-out;
+    -webkit-transition: background-color 0.35s ease-in-out;
+    -o-transition: background-color 0.35s ease-in-out;
+    -ms-transition: background-color 0.35s ease-in-out;
+    transition: background-color 0.35s ease-in-out;
+    background-color: rgb(99,171,244);
+    border-radius: 6px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.45em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    margin-left: 10px;
+    color: #FFF !important;
+}
+
 @media(min-width: 1200px) {
   h3 {
     margin-top: 0;
@@ -94,8 +121,8 @@ h1 {
   /*margin-top: 10px;*/
   margin-bottom: 10px;
   background-color: #f2f2f2;
-  height:210px;
   padding-bottom: 10px;
+  border-radius: 0px 0px 6px 6px;
 }
 
 .list-border ul {
@@ -112,7 +139,7 @@ h1 {
 @media (max-width: 989px) {
   .rotating-img {
     width: 200px;
-    height: 210px;
+    height: 250px;
     margin: 0 30px;
   }
 
@@ -121,16 +148,12 @@ h1 {
 
   }
 
-  .list-border {
-    height:160px;
-  }
-
 }
 
 @media (max-width: 600px) {
 
   .list-border {
-    height:230px;
+     padding-bottom: 20px;
   }
 
 }
@@ -246,5 +269,4 @@ h1 {
   font-size: 25px;
   padding: 6px 10px;
   text-decoration: none;
-   
 }
