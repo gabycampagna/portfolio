@@ -176,7 +176,7 @@ h1 {
 /* Social Sharing */
 .btn-twitter {
     background: #00acee;
-    border-radius: 0;
+    border-radius: 1;
     color: #fff;
     padding: 4px 5px 3px 5px;
 }
@@ -189,7 +189,7 @@ h1 {
 }
 .btn-facebook {
     background: #3b5998;
-    border-radius: 0;
+    border-radius: 3;
     color: #fff;
     padding: 4px 8px 4px 8px;
 }
@@ -202,7 +202,7 @@ h1 {
 }
 .btn-googleplus {
     background: #e93f2e;
-    border-radius: 0;
+    border-radius: 3;
     color: #fff;
     padding: 4px 1px 3px 3px;
 }
@@ -213,22 +213,22 @@ h1 {
     background: #ba3225;
     color: #fff
 }
-.btn-stumbleupon {
+.btn-github {
     background: #f74425;
-    border-radius: 0;
+    border-radius: 3;
     color: #fff;
-    padding: 2px;
+    padding: 4px 5px 3px 5px;
 }
-.btn-stumbleupon:link, .btn-stumbleupon:visited {
+.btn-github:link, .btn-github:visited {
     color: #fff
 }
-.btn-stumbleupon:active, .btn-stumbleupon:hover {
-    background: #c7371e;
-    color: #fff
+.btn-github:active, .btn-github:hover {
+    background: #fa583c;
+    color: #fff;
 }
 .btn-linkedin {
     background: #0e76a8;
-    border-radius: 0;
+    border-radius: 3;
     color: #fff;
     padding: 4px 6px 3px 6px;
 }
@@ -262,11 +262,14 @@ h1 {
     bottom: 18px; /* height of link element */
     right: 10px; /* padding from the left side of the window */
     background-color: #000;
+    z-index: 9999;
+    opacity: 0.6;
 }
 
 #top-link-block.affix a {
   color: #fff;
   font-size: 25px;
   padding: 6px 10px;
+  opacity: 1;
   text-decoration: none;
 }
