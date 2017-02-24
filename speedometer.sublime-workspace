@@ -1,0 +1,514 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"height",
+				"min-height"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"fo",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/gabycampagna/Desktop/speedometer/index.html",
+			"settings":
+			{
+				"buffer_size": 610,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sf",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Edit Server…"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"packageman",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packinst",
+				"Package Control: Install Package"
+			],
+			[
+				"view in",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"View In Browser"
+			],
+			[
+				"package contr",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"git ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bookmarks: Select All"
+			],
+			[
+				"Pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"View",
+				"View: Toggle Open Files in Side Bar"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gabycampagna/Desktop/speedometer/styles.css",
+		"/Users/gabycampagna/Desktop/speedometer/scripts.js",
+		"/Users/gabycampagna/Desktop/gaby/calculator/css/calculator.css",
+		"/Users/gabycampagna/Desktop/musicbrowser-master/gabycampagna/index.html",
+		"/Users/gabycampagna/Desktop/gaby/js/script.js",
+		"/Users/gabycampagna/Desktop/blog_react/package.json",
+		"/Users/gabycampagna/Desktop/gaby/css/styles.css",
+		"/Users/gabycampagna/Desktop/gaby/css/bootstrap.css",
+		"/Users/gabycampagna/Desktop/gaby/css/bootstrap-theme.css",
+		"/Users/gabycampagna/Desktop/gaby/calculator/index.html",
+		"/Users/gabycampagna/Desktop/gaby/blue-calc/index.html",
+		"/Users/gabycampagna/Desktop/gaby/blue-calc/css/styles.css",
+		"/Users/gabycampagna/Desktop/gaby/blue-calc/js/calc.js",
+		"/Users/gabycampagna/Desktop/gaby/todo/todo.html",
+		"/Users/gabycampagna/Desktop/gaby/index.html",
+		"/Users/gabycampagna/Desktop/gaby/todo/todo.js",
+		"/Users/gabycampagna/Desktop/gaby/partials/list.html",
+		"/Users/gabycampagna/Desktop/gaby/js/app.js",
+		"/Users/gabycampagna/Desktop/gaby/js/controllers.js",
+		"/Users/gabycampagna/Desktop/gaby/partials/index-2.html",
+		"/Users/gabycampagna/Desktop/gaby/partials/list-lynda.html",
+		"/Users/gabycampagna/Desktop/gaby/index-2.html",
+		"/Users/gabycampagna/Desktop/gaby/pro.html",
+		"/Users/gabycampagna/Desktop/gaby/index.htm",
+		"/Users/gabycampagna/Desktop/gaby/skills.html",
+		"/Users/gabycampagna/Desktop/gaby/photo.html",
+		"/Users/gabycampagna/Desktop/gaby/js/bootstrap.min.js",
+		"/Users/gabycampagna/Desktop/gaby/font-awesome-4.5.0/css/font-awesome.css",
+		"/Users/gabycampagna/Desktop/gaby/css/bootstrap.min.css",
+		"/Users/gabycampagna/Desktop/gaby/style.css",
+		"/Users/gabycampagna/Desktop/gaby/skilss.html",
+		"/Users/gabycampagna/Desktop/gaby/_css/photoswipe.css",
+		"/Users/gabycampagna/Documents/Ex_Files_Applied_Res_Design/Exercise Files/Chapter_06/06_03/sftp-config.json",
+		"/Users/gabycampagna/Documents/gabycampagna-sftp",
+		"/Users/gabycampagna/Desktop/Ex_Files_jQuery_EssT/Exercise Files/Ch_1/CreateChange_intro.html",
+		"/Users/gabycampagna/Desktop/Ex_Files_jQuery_EssT/Exercise Files/Ch_1/SelectFilter_intro.htm",
+		"/Users/gabycampagna/Desktop/Ex_Files_jQuery_EssT/Exercise Files/ExampleSnippets.txt",
+		"/Users/gabycampagna/Library/Application Support/Sublime Text 2/Packages/GoSublime/USAGE.md",
+		"/Users/gabycampagna/Desktop/Ex_Files_jQuery_EssT/Exercise Files/Ch_1/FirstjQueryPage_start.html",
+		"/Users/gabycampagna/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/gabycampagna/Library/Application Support/Sublime Text 2/Packages/GoSublime/CHANGELOG.md",
+		"/Users/gabycampagna/Desktop/Ex_Files_jQuery_EssT/Exercise Files/Ch_2/ChildVisCont_finished.html",
+		"/Users/gabycampagna/Desktop/repos/git-basics/_css/main.css",
+		"/Users/gabycampagna/Desktop/readme.txt"
+	],
+	"find":
+	{
+		"height": 61.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/gabycampagna/Desktop/gaby"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"media",
+			"tablet",
+			"h2",
+			"user",
+			"plus",
+			"google",
+			".skills",
+			"list-bord",
+			"list-border",
+			"button",
+			"top",
+			"list-bor",
+			"list-",
+			"height: 260px;",
+			"    height: 260px;",
+			"list-border",
+			"list-bord",
+			"section",
+			"mid",
+			"middle",
+			"footer",
+			"md-4",
+			"img-responsive",
+			"ol-md-4",
+			"container",
+			".navbar-default",
+			"navbar",
+			"media",
+			"viewpor",
+			"zoom",
+			"device-wi",
+			"view",
+			"media",
+			"skills",
+			"media",
+			"img",
+			"220px",
+			"> i",
+			"fa-",
+			"media",
+			"#main",
+			"#",
+			"media",
+			"content",
+			"$",
+			"Tower",
+			"fa",
+			".navbar-inverse .navbar-brand",
+			"fa-angle-right",
+			"fa fa",
+			"well",
+			".container",
+			"af",
+			"affix",
+			".navbar-fixed-top + .content-container {\n	margin-top: 70px;\n}\n.content-container {\n	margin: 0 130px;\n}\n\n\n\n#top-link-block.affix-top {\n    position: absolute; /* allows it to \"slide\" up into view */\n    bottom: -82px; /* negative of the offset - height of link element */\n    left: 10px; /* padding from the left side of the window */\n}\n#top-link-block.affix {\n    position: fixed; /* keeps it on the bottom once in view */\n    bottom: 18px; /* height of link element */\n    left: 10px; /* padding from the left side of the window */\n}",
+			"#top-link-block",
+			"h4 ",
+			"h4 +",
+			"h4",
+			"h4 + p",
+			"0 6px",
+			"main",
+			"list",
+			"br",
+			"section",
+			"h4",
+			"font-size",
+			"h4",
+			"font-size",
+			"accordion",
+			"accord",
+			"accordian",
+			"accordion",
+			"slashdot.org",
+			"The slash",
+			"slashdot top",
+			"slashdot deals",
+			"rrs",
+			"subhead",
+			"navbar-brand",
+			"nav-brand",
+			"768px",
+			".navbar-brand",
+			"media",
+			"fa twitter",
+			"fa twiterre",
+			"btn-twitter",
+			"rgb",
+			"a:",
+			".navbar-default .navbar-nav > .active > a",
+			"body > .container",
+			"navbar",
+			"@media (min-width: 768px)",
+			"@media (min-width: 768px).navbar",
+			"@media (min-width: 768px)\n.navbar",
+			"hover",
+			"border-bottom",
+			"radius",
+			"  /*background-color: #f8f8f8;*/",
+			".navbar-default ",
+			".navbar-default .navbar-collapse, .navbar-default .navbar-form",
+			".navbar-default .navbar-toggle",
+			".navbar-default .navbar-nav > .active > a,",
+			"back",
+			"navbar",
+			"containter",
+			"href",
+			"footer",
+			"navbar-nav",
+			"clearfix",
+			"footer",
+			"        </",
+			"hr",
+			"boot",
+			"span3",
+			"span",
+			"span-3",
+			"span-",
+			"span3",
+			"span",
+			"        <",
+			"container"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/gabycampagna/Desktop/speedometer/index.html",
+					"settings":
+					{
+						"buffer_size": 610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GoSublime-output":
+	{
+		"height": 100.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"skills.html"
+			],
+			[
+				"v",
+				"Exercise Files/Ch_2/ChildVisCont_finished.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/gabycampagna/Documents/jquery-ess.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true
+}

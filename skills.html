@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
-    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery.modal.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/flexslider.css">
     <link type="text/css" rel="stylesheet" href="css/styles.css">
-    <title>Gabrielle Campagna - UI Developer</title>
+    <title>Gabrielle Campagna - UX/UI Designer/Developer</title>
 </head>
 
 <body>
@@ -21,7 +23,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Gabrielle Campagna  <span class="subhead"> | UI Developer</span></a>
+                <a class="navbar-brand" href="index.html">Gaby Campagna</a>
             </div>
             <!-- navbar-header -->
             <div class="collapse navbar-collapse" id="collapse">
@@ -29,7 +31,7 @@
                     <li><a href="index.html">Skills</a></li>
                     <li><a href="pro.html">Professional Experience</a></li>
                     <li class="active"><a href="skills.html">Projects</a></li>
-                    <li><a href="photo.html">Photography</a></li>
+                    <li><a href="photo.html">UX Process</a></li>
                 </ul>
             </div>
             <!-- collapse navbar-collapse -->
@@ -38,112 +40,234 @@
     </nav>
     <div class="services container">
         <div class="row">
-            <section class="col-sm-12">
-                <h1>Projects</h1>
-                <hr>
-                <h5>Below are a few examples of <a href="http://www.slashdot.org" target="_blank">Slashdot Projects</a>. </h5>
-                <p>The Slashdot Team UI/UX Lead and I were working on this style guide built with Ember.js for the past 8 months <a href="http://slashdot.sourceforge.net/#/guides/scaffold" target="_blank">slashdot.sourceforge.net</a></p>
-                <hr>
-            </section>
-        </div>
+        <section class="col-sm-12">
+            <h1>Projects</h1>
+            <hr>
+         </section>  
+        </div>      
+         <h5>Samples of Cisco Projects:</h5>
+
         <div class="row">
-            <section class="col-md-4">
-                <h5> <a href="http://www.slashdot.org" target="_blank">Responsive Main Navigation Menu</a> 
-                <br>Higher Screen Resolution design and added CSS media queries<h5>
-                <a href="http://www.slashdot.org" target="_blank"> <img class="img-responsive" src="images/responsive-nav-main.png"></a>
-                <h5> <a href="http://www.slashdot.org" target="_blank">Mobile Screen Size</a> 
-                <br>Resize browser to view responisve nav menu.</h5>
-                <a href="http://www.slashdot.org" target="_blank"><img class="img-responsive" src="images/responsive-nav.png"></a>
-                <hr>
-                <h5> <a href="http://science.slashdot.org/story/16/02/11/1957210/drivers-need-to-forget-their-gps" target"_blank">AdBlock eFnabled ad</a> <br>
-                Handlebars templates, jQuery and AJAX with API</h5>
-                <small>Ad in footer area  AdBlock work around</samll>
-                <a href="http://science.slashdot.org/story/16/02/11/1957210/drivers-need-to-forget-their-gps" target "_blank"><img class="img-responsive" src="images/top-ads-footer.png"></a>
-                <hr>
-                <h5><a href="http://www.slashdot.org/faq" target="_blank">Accordion Menu</a> </h5>
-                <a href="http://www.slashdot.org/faq" target="_blank"><img class="img-responsive" src="images/accordian-menu-dropdown.png"></a>
-                <hr>
+            <section class="col-md-2">
+               
+                <p>Traffic and Routing Analytics App</p>
+                <p><p>Designed wireframe and functoning prototype demonstrated at "Cisco Live 2016" in Las Vegas. Implemented using Angular, Bootstrap, Leaflet, Sass, jQuery, and Grunt.</p></p>
+            </section>
+            <section class="col-md-2">
+                <a href="#ex4" rel="modal:open" class="open-modal">
+                 <img class="img-responsive" src="images/projects/A1-thumb.png">
+                </a>
+                <div id="ex4" style="display:none;">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="text-align: center;">
+                    <a href="#" rel="modal:close">
+                        <span><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                    </a>
+                     <img src="images/projects/A1.png">
+                  </div><!-- /.modal-content -->
+                </div>
+              </div>
+            </section>
+            <section class="col-md-2">
+                <a href="#ex5" rel="modal:open" class="open-modal">
+                 <img class="img-responsive" src="images/projects/A2-thumb.png">
+                </a>
+                <div id="ex5" style="display:none;">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="text-align: center;">
+                    <a href="#" rel="modal:close">
+                        <span><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                    </a>
+                     <img src="images/projects/A2.png">
+                  </div><!-- /.modal-content -->
+                </div>
+              </div>
+            </section>
+        </div>  
+        <hr>
+        <div class="row">
+
+            <section class="col-md-2">
+                <p><a href="docs/index.html" target="_blank">API Documentantion</a></br> (OBMP Routing Analytics Open Source Project)</p>
+                <p>Swagger 2.0 codegen, JSON, jQuery, Maven</p>
+            </section>
+            <section class="col-md-2">
+                <a href="#ex1" rel="modal:open" class="open-modal">
+                 <img class="img-responsive" src="images/projects/obmp1-thumb.png">
+                </a>
+                <div id="ex1" style="display:none;">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="text-align: center;">
+                    <a href="#" rel="modal:close">
+                        <span><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                    </a>                    
+                     <img src="images/projects/obmp1.png">
+                  </div><!-- /.modal-content -->
+                </div>
+              </div>
+            </section>
+            <section class="col-md-2">
+                <a href="#ex2" rel="modal:open" class="open-modal">
+                 <img class="img-responsive" src="images/projects/obmp2-thmub.png">
+                </a>
+                <div id="ex2" style="display:none;">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="text-align: center;">
+                    <a href="#" rel="modal:close">
+                        <span><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                    </a>                     <img src="images/projects/obmp2.png">
+                  </div><!-- /.modal-content -->
+                </div>
+              </div>
+            </section>
+            <section class="col-md-2">
+                <a href="#ex3" rel="modal:open" class="open-modal">
+                 <img class="img-responsive" src="images/projects/obmp4-thumb.png">
+                </a>
+                <div id="ex3" style="display:none;">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="text-align: center;">
+                    <a href="#" rel="modal:close">
+                        <span><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                    </a>  
+                     <img src="images/projects/obmp4.png">
+                  </div><!-- /.modal-content -->
+                </div>
+              </div>
+            </section>
+        </div>  
+        <hr>
+        <div class="row">
+            <section class="col-md-2">
+                <p>OBMP App</a> (OBMP Routing Analytics Open Source Project) </p>
+                <p>Angular, Bootstrap, jQuery, D3.js, and Grunt</p>
+             </section> 
+            <section class="col-md-2">
+                <a href="#ex6" rel="modal:open" class="open-modal">
+                 <img class="img-responsive" src="images/projects/RA1-thumb.png">
+                </a>
+                <div id="ex6" style="display:none;">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="text-align: center;">
+                    <a href="#" rel="modal:close">
+                        <span><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                    </a>                    
+                     <img src="images/projects/RA-1.png">
+                  </div><!-- /.modal-content -->
+                </div>
+              </div>
+            </section>  
+            <section class="col-md-2">
+                <a href="#ex7" rel="modal:open" class="open-modal">
+                 <img class="img-responsive" src="images/projects/RA2-thumb.png">
+                </a>
+                <div id="ex7" style="display:none;">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="text-align: center;">
+                    <a href="#" rel="modal:close">
+                        <span><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                    </a>                    
+                     <img src="images/projects/RA2.png">
+                  </div><!-- /.modal-content -->
+                </div>
+              </div>
+            </section>  
+             <section class="col-md-2">
+                <a href="#ex8" rel="modal:open" class="open-modal">
+                 <img class="img-responsive" src="images/projects/RA3-thumb.png">
+                </a>
+                <div id="ex8" style="display:none;">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="text-align: center;">
+                    <a href="#" rel="modal:close">
+                        <span><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                    </a>                    
+                     <img src="images/projects/RA3.png">
+                  </div><!-- /.modal-content -->
+                </div>
+              </div>
+            </section>  
+            <section class="col-md-2">
+                <a href="#ex9" rel="modal:open" class="open-modal">
+                 <img class="img-responsive" src="images/projects/RA4-thumb.png">
+                </a>
+                <div id="ex9" style="display:none;">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="text-align: center;">
+                    <a href="#" rel="modal:close">
+                        <span><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                    </a>                    
+                     <img src="images/projects/RA4.png">
+                  </div><!-- /.modal-content -->
+                </div>
+              </div>
+          
             </section>   
 
-
-            <section class="col-md-4">
-                <h5> <a href="http://www.slashdot.org" target="_blank">“Slashdot Top Deals” ad</a> <br>
-                 AdBlock plugin is enabled (handlebars, jQuery and AJAX with API)</h5><small>To view please enable AdBlock</small>
-                <a href="http://www.slashdot.org" target="_blank"><img class="img-responsive" src="images/top-ads-rail.png"></a>
-                <hr>
-                <h5> <a href="http://www.slashdot.org" target="_blank">Dice Job Search Widget</a></h5>
-                <a href="http://www.slashdot.org" target="_blank"><img class="img-responsive" src="images/dice-jobs-widget.png"></a>
-                <hr>            
-            </section>
-            <section class="col-md-4">    
-                <h5> <a href="http://www.slashdot.org" target="_blank">Video Gallery Slider</a> <br> CSS Transitions</h5>
-                <a href="http://www.slashdot.org" target="_blank"><img class="img-responsive" src="images/video-bytes-slider.png"></a>
-                <hr>
-                <h5> <a href="http://www.slashdot.org" target="_blank">jQuery Modals</a> <br>
-                Videos in video bytes (paired with my Lead on implementation)</h5>
-                <a href="http://www.slashdot.org" target="_blank"><img class="img-responsive" src="images/video-modal.png"></a>
-                <hr>
-                <h5> <a href="http://www.slashdot.org/polls" target="_blank">Polls Form on Polls Landing Page</a></h5>
-                <a href="http://www.slashdot.org/polls" target="_blank"><img class="img-responsive" src="images/polls-min.png"></a>
-                <hr> 
-            </section>        
+        </div>      
+        <div class="row">
+            <hr>
+            <section class="col-sm-4 col-lg-12">
+            <h5>Below are a few examples of <a href="http://www.slashdot.org" target="_blank">Slashdot Projects</a>. </h5>
+            <p>The Slashdot Team UI/UX Lead and I were working on this style guide built with Ember.js for the past 8 months <a href="http://slashdot.sourceforge.net/#/guides/scaffold" target="_blank">slashdot.sourceforge.net</a></p>
+        </section>
         </div>
-
+        <div class="row">
+            <section class="col-md-4">
+              <h5> <a href="http://www.slashdot.org/videos" target="_blank">Slashdot Videos</a> 
+                <br>Video Gallery<h5>
+                <a href="http://www.slashdot.org/videos" target="_blank"> <img class="img-responsive" src="images/slashdotvideo.png"></a>
+            </section>   
+            <section class="col-md-4">
+            <h5> <a href="https://tech.slashdot.org/story/15/05/26/206238/the-wrap---hacked-airplane-potus-on-twitter-wifi-by-balloon" target="_blank">Video Player</a> 
+            <br>Videos<h5>
+                <a href="https://tech.slashdot.org/story/15/05/26/206238/the-wrap---hacked-airplane-potus-on-twitter-wifi-by-balloon" target="_blank"><img class="img-responsive" src="images/slashdotvideo2.png"></a>     
+        </div>
+        <hr>
         <div class="row">
             <section class="col-sm-12">
-                <h5>Below are examples of <a href="http://www.gabycampagnadesign.com/ops" target="_blank">Cisco projects.</a></h5>
-                <p>All Cisco projects were developed and implented internally and were confidential.  Below are a few generic examples of structures and features I built within their system.  <small>Disclaimer: No Cisco content will be exhibited.</small></p>
-                <hr>
+                <h5>Websites that I designed and developed with my client, 12 Toes Promotions.</h5>
+              
             </section>
-        </div>
+        </div>   
         <div class="row">
-            <section class="col-md-4">
-                <h5> <a href="http://www.gabycampagnadesign.com/ops" target="_blank">Generic examples of dashboard and product pages</a><h5>
-                <a href="http://www.gabycampagnadesign.com/ops" target="_blank"> <img class="img-responsive" src="images/ctg-dashboard.png"></a>
-                <h5> <a href="http://www.gabycampagnadesign.com/ops/plm.shtml" target="_blank">Accordion for Products</a><h5> 
-                <a href="http://www.gabycampagnadesign.com/ops/plm.shtml" target="_blank"> <img class="img-responsive" src="images/product-accordian.png"></a>   
-                <hr>                        
-            </section>   
+            <div class="col-sm-4">
+                <div class="slider_container">
+                    <div class="flexslider" style="overflow: hidden;">
+                    <ul class="slides">
+                        <li class="clone">
+                            <h5><a href="http://www.stiebs.com/" target="_blank">Stiebs</a><h5>
+                            <a href="http://www.stiebs.com/" target="_blank"> <img class="img-responsive" src="images/web3.png"></a>
+                        </li>                              
+                        <li>
+                            <h5> <a href="http://www.streamlineofficeservices.com" target="_blank">Streamline Office Services</a><h5>
+                            <a href="http://www.streamlineofficeservices.com" target="_blank"> <img class="img-responsive" src="images/web4.png"></a>
+                        </li>     
+                        <li>
+                            <h5> <a href="https://web.archive.org/web/20120417184312/http://photoagogobooth.com/" target="_blank">Photo A Go-Go</a><h5>
+                            <a href="https://web.archive.org/web/20120417184312/http://photoagogobooth.com/" target="_blank"> <img class="img-responsive" src="images/web7.png"></a>    
+                        </li> 
+                        <li>
+                            <h5> <a href="http://www.calpom.com/" target="_blank">Cal Pom</a><h5>
+                            <a href="http://www.calpom.com/" target="_blank"> <img class="img-responsive" src="images/web1.png"></a>
+                        </li>  
+                        <li>
+                            <h5> <a href="https://web.archive.org/web/20140517003134/http://9to5forchrist.org/" target="_blank">9 to 5 for Christ</a><h5>
+                            <a href="https://web.archive.org/web/20140517003134/http://9to5forchrist.org/" target="_blank"> <img class="img-responsive" src="images/web5.png"></a>
+                        </li>                         
+                        <li>
+                            <h5> <a href="http://www.mcgoldricklaw.com/" target="_blank">McGoldrick &amp; McGoldrick</a><h5>
+                            <a href="http://www.mcgoldricklaw.com/" target="_blank"> <img class="img-responsive" src="images/web2.png"></a>
+                        </li>  
+                        <li>
+                            <h5> <a href="https://web.archive.org/web/20130911030307/http://www.dreamfaces.net/" target="_blank">Dreamfaces</a><h5>
+                            <a href="https://web.archive.org/web/20130911030307/http://www.dreamfaces.net/" target="_blank"> <img class="img-responsive" src="images/web6.png"></a>
+                        </li>    
 
-            <section class="col-md-4">
-                <h5> <a href="http://www.gabycampagnadesign.com/ops" target="_blank">Drop Down Menu</a><h5>
-                <a href="http://www.gabycampagnadesign.com/ops" target="_blank"> <img class="img-responsive" src="images/menu-ctg.png"></a>
-                <hr>
-            </section>
-
-            <section class="col-md-4">    
-                <h5> <a href="http://www.gabycampagnadesign.com/ops" target="_blank">Mega Tool Tip Menu</a><h5>
-                <small>Hover over "Qucik Select" image</small>  
-                <a href="http://www.gabycampagnadesign.com/ops" target="_blank"> <img class="img-responsive" src="images/tool-tip-menu.png"></a>
-                <hr>
-                <h5> <a href="http://gabycampagnadesign.com/ops/plm.shtml" target="_blank">Scrolling Testimonials</a><h5>
-                <a href="http://gabycampagnadesign.com/ops/plm.shtml" target="_blank"> <img class="img-responsive" src="images/scrolling-feature.png"></a>      
-            </section>        
-        </div>
-
-          <div class="row">
-            <section class="col-sm-12">
-                <h5>Below are websites that I designed and developed with my client, 12 Toes Promotions.</h5>
-                <hr>
-            </section>
-        </div>
-        <div class="row">
-            <section class="col-md-4">
-                <h5> <a href="http://www.stiebs.com/" target="_blank">Stiebs</a><h5>
-                <a href="http://www.stiebs.com/" target="_blank"> <img class="img-responsive" src="images/stiebs.jpg"></a>
-                <hr>
-                 <h5> <a href="http://www.streamlineofficeservices.com" target="_blank">Streamline Office Services</a><h5>
-                <a href="http://www.streamlineofficeservices.com" target="_blank"> <img class="img-responsive" src="images/streamline.jpg"></a>
-                <hr>
-            </section>   
-            <section class="col-md-4">        
-                <h5> <a href="http://www.calpom.com/" target="_blank">Cal Pom</a><h5>
-                <a href="http://www.calpom.com/" target="_blank"> <img class="img-responsive" src="images/calpom.jpg"></a>
-                <hr>
-                <h5> <a href="http://www.9to5forchrist.org/" target="_blank">9 to 5 for Christ</a><h5>
-                <a href="http://www.9to5forchrist.org/" target="_blank"> <img class="img-responsive" src="images/9to5.jpg"></a>
-                <hr>
-            </section> 
+                    </ul>
+                    <ol class="flex-control-nav"><li><a class="">1</a></li><li><a class="active">2</a></li><li><a class="">3</a></li></ol><ul class="flex-direction-nav"><li><a class="prev" href="#">Previous</a></li><li><a class="next" href="#">Next</a></li></ol></div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- /top-link-block --> 
@@ -151,25 +275,60 @@
         <a href="#top" class="well well-sm">
         <i class="fa fa-arrow-circle-up"></i> 
         </a>
-    </span>     
-    <footer class="footer">
+    </span>    
+     <footer class="footer">
         <div class="container">
-            <p class="text-muted">Email contact: <a href="mailto:gabycampagna@gmail.com">gabycampagna@gmail.com</a></p>
-            <!-- Twitter -->
-            <a href="https://twitter.com/gabycampagna" title="Visit me on Twitter" target="_blank" class="btn-twitter"><i class="fa fa-twitter"></i></a>
-            <!-- Facebook -->
-            <a href="https://www.facebook.com/gaby.campagna" title="Visit me on Facebook" target="_blank" class="btn-facebook"><i class="fa fa-facebook"></i></a>
+            <!-- Email -->
+            <a href="mailto:gabycampagna@gmail.com" title="Email Me" target="_blank" class="btn-email"><i class="fa fa-envelope-o"></i></a>
+            <!-- Codepen -->
+            <a href="http://codepen.io/gabycampagna/" title="Visit me on Codepen" target="_blank" class="btn-codepen"><i class="fa fa-codepen"></i></a>
             <!-- LinkedIn -->
             <a href="https://www.linkedin.com/in/gabycampagna" title="Visit me on LinkedIn" target="_blank" class="btn-linkedin"><i class="fa fa-linkedin"></i></a>
             <!-- Github -->
-            <a href="https://github.com/gabycampagna" title="Visit me on Github" target="_blank" class="btn-github"><i class="fa fa-github-square"></i></a>
-        </div>
-         
+            <a href="https://github.com/gabycampagna" title="Visit me on Github" target="_blank" class="btn-github"><i class="fa fa-github"></i></a>
         </div>
     </footer>
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/jquery.modal.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+        <script src="js/script.js"></script>
+        <script type="text/javascript" charset="utf-8">
+        var $ = jQuery.noConflict();
+          $(window).load(function() {
+            $('.flexslider').flexslider({
+                  animation: "slide"
+            });
+            
+            $(function() {
+                $('#activator').click(function(){
+                        $('#top_slide_content').animate({'top':'0px'},400);
+                });
+                $('#boxclose').click(function(){
+                        $('#top_slide_content').animate({'top':'-500px'},400);
+                });
+                    });
+            
+            $(".es-carousel ul li").hover(function(){
+                 $(this).children('span').animate({left:"20px"},{queue:false,duration:300});
+                 $(this).children('b').animate({top:"0px"},{queue:false,duration:300});
+            }, function() {
+                 $(this).children('span').animate({left:"10px"},{queue:false,duration:300});
+                 $(this).children('b').animate({top:"-20px"},{queue:false,duration:300});
+            });
+            
+
+          });
+  
+    </script>
+    <script>
+    $('a.open-modal').click(function(event) {
+      $(this).modal({
+        fadeDuration: 250
+      });
+      return false;
+    });
+    </script>
 </body>
 
 </html>

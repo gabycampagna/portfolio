@@ -5875,7 +5875,7 @@ button.close {
 .modal-open {
   overflow: hidden;
 }
-.modal {
+/*.modal {
   position: fixed;
   top: 0;
   right: 0;
@@ -5922,7 +5922,7 @@ button.close {
   outline: 0;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
           box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
-}
+}*/
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -5979,7 +5979,7 @@ button.close {
 }
 
 
-
+/*
 @media (min-width: 768px) {
   .modal-dialog {
     width: 600px;
@@ -5997,7 +5997,7 @@ button.close {
   .modal-lg {
     width: 900px;
   }
-}
+}*/
 .tooltip {
   position: absolute;
   z-index: 1070;

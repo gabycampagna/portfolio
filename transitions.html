@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="jquery, javascript, css2, css3, DHTML, XHTML, HTML5, CSS, Sass, Less, Git, svn, github, ajax, banner ads, banner design, animated, animated gifs, flash animation, templating engines, CSS, handlebars, JIRA, templating engines flash banners, flash ads, graphic design, html, css3, photoshop, fireworks, web site design, web development" />
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <title>Gabrielle Campagna - UX/UI Designer/Developer</title>
+    <style>
+        svg {
+          font: 10px sans-serif;
+        }
+
+        .y.axis path {
+          display: none;
+        }
+
+        .y.axis line {
+          stroke: #fff;
+          stroke-opacity: .2;
+          shape-rendering: crispEdges;
+        }
+
+        .y.axis .zero line {
+          stroke: #000;
+          stroke-opacity: 1;
+        }
+
+        .title {
+          font: 300 78px Helvetica Neue;
+          fill: #666;
+        }
+
+        .birthyear,
+        .age {
+          text-anchor: middle;
+        }
+
+        .birthyear {
+          fill: #fff;
+        }
+
+        rect {
+          fill-opacity: .6;
+          fill: #e377c2;
+        }
+
+        rect:first-child {
+          fill: #1f77b4;
+        }
+
+        </style>
+<body>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Gaby Campagna</a>
+            </div>
+            <!-- navbar-header -->
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Skills</a></li>
+                    <li><a href="pro.html">Professional Experience</a></li>
+                    <li><a href="skills.html">Projects</a></li>
+                    <li><a href="photo.html">UX Process</a></li>
+                </ul>
+            </div>
+            <!-- collapse navbar-collapse -->
+        </div>
+        <!-- container -->
+    </nav>
+    <div class="services container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>D3.js Population Chart</h1>
+
+            <script src="http://d3js.org/d3.v3.min.js"></script>
+
+
+                <div id="chart"></div>
+  
+            <script>
+           var data = [50,25,320,440,500,250,320,750,50,320,440,500,250,320];
+
+                        var height = 500;
+                        var width = 500;
+                        var animateDuration = 700;
+                        var animateDelay = 30;
+
+                        var color = d3.scale.linear()
+                                      .domain([0,d3.max(data)])
+                                      .range(['red','blue']);
+
+                        var tooltip = d3.select('body').append('div')
+                                        .style('position','absolute')
+                                        .style('background','white')
+                                        .style('padding','10 15px')
+                                        .style('border','1px black solid')
+                                        .style('border-radius','5px')
+                                        .style('opacity','0');
+
+                        var yScale = d3.scale.linear()
+                                       .domain([0,d3.max(data)])
+                                       .range([0,height]);
+
+                        var xScale = d3.scale.ordinal()
+                                       .domain(d3.range(0,data.length))
+                                       .rangeBands([0,width]);
+
+                        var chart = d3.select('#chart').append('svg')
+                                      .attr('width',width)
+                                      .attr('height',height)
+                                      .style('background','f4f4f4')
+                                      .selectAll('rect')
+                                          .data(data)
+                                          .enter()
+                                            .append('rect')
+                                            .style('fill',function(d){
+                                                return color(d);
+                                            })
+                                            .attr('width',xScale.rangeBand())
+                                            .attr('height',0)
+                                            .attr('x',function(d,i){
+                                              return xScale(i);
+                                            })
+                                            .attr('y',height)
+
+                                       .on('mouseover',function(d){
+                                            tooltip.transition()
+                                                   .style('opacity',1);
+                          
+                                            tooltip.html(d)
+                                                   .style('left',(d3.event.pageX)+'px')
+                                                   .style('top',(d3.event.pageY)+'px')
+                                                d3.select(this).style('opacity','0.5');
+                                       })
+
+                                       .on('mouseout',function(d){
+                                          tooltip.transition()
+                                                 .style('opacity',0);
+                          
+                                          d3.select(this).style('opacity',1);
+                          
+                                        });
+
+                        chart.transition()
+                             .attr('height',function(d){
+                                return yScale(d);
+                            })
+                             .attr('y',function(d){
+                                return height - yScale(d);
+                            })
+                          .duration(animateDuration)
+                          .delay(function(d,i){
+                              return i * animateDelay;
+                          })
+                          .ease('elastic');    
+                                             
+
+
+            </script>
+            </div>
+        </div>
+
+     </div>   
+
+    
+        <!-- row -->
+    </div>
+    <!-- content container -->
+    <!-- /top-link-block --> 
+    <span id="top-link-block" class="hidden">
+        <a href="#top" class="well well-sm">
+        <i class="fa fa-arrow-circle-up"></i>
+        </a>
+    </span>  
+     <footer class="footer">
+        <div class="container">
+            <!-- Email -->
+            <a href="mailto:gabycampagna@gmail.com" title="Email Me" target="_blank" class="btn-email"><i class="fa fa-envelope-o"></i></a>
+            <!-- Facebook -->
+            <a href="http://codepen.io/gabycampagna/" title="Visit me on Codepen" target="_blank" class="btn-codepen"><i class="fa fa-codepen"></i></a>
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/gabycampagna" title="Visit me on LinkedIn" target="_blank" class="btn-linkedin"><i class="fa fa-linkedin"></i></a>
+            <!-- Github -->
+            <a href="https://github.com/gabycampagna" title="Visit me on Github" target="_blank" class="btn-github"><i class="fa fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

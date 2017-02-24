@@ -13,7 +13,7 @@ if ( ($(window).height() + 100) < $(document).height() ) {
 
 var myImage = document.getElementById("mainImage1");
 
-var imageArray = ["images/dice-jobs-widget.png","images/top-ads-rail.png","images/polls-min.png","images/slashdot.png"];
+var imageArray = ["images/polls-min.png","images/polls-chart.png","images/slashdot.png"];
 var imageIndex = 0;
 
 function changeImage() {
@@ -25,7 +25,7 @@ function changeImage() {
 }
 
 // setInterval is also in milliseconds
-var intervalHandle = setInterval(changeImage,5000);
+var intervalHandle = setInterval(changeImage,3000);
 
 myImage.onclick =  function() {
 	clearInterval(intervalHandle);
