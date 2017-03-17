@@ -1,6 +1,6 @@
 body {
     background: url(../images/pattern2.png) repeat;
-    font-size: 12px;  
+    font-size: 12px;
 }
 
 
@@ -24,7 +24,7 @@ h2 {
   margin: 0;
   padding: 0 0 20px 0;
   font-family: 'Terminal Dosis';
-}   
+}
 
 h6 {
     font-family: 'Terminal Dosis';
@@ -39,7 +39,7 @@ h6 {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-  opacity: 8;  
+  opacity: 8;
   color: #716d6d;
 }
 
@@ -75,12 +75,12 @@ h6 {
 
 @media (max-width: 960px) {
 
-  /* logo removed at 960px */  
+  /* logo removed at 960px */
   .navbar-header > .navbar-brand {
     display: none;
   }
-    
-  /* logo removed at 960px and Text for logo displays */  
+
+  /* logo removed at 960px and Text for logo displays */
 
   a.navbar-brand-mobile {
       font-size: 1rem;
@@ -108,11 +108,11 @@ h6 {
     padding: 10px 5px;
     margin-bottom: 10px;
     border-bottom: 2px solid #eee;
-  }  
-  
+  }
+
   .row.top-container {
     margin-top: 90px;
-  } 
+  }
 }
 
 .text-box a:link {
@@ -159,7 +159,7 @@ h6 {
   color: #ccc;
 }
 
-.dropdown-toggle a, 
+.dropdown-toggle a,
 .dropdown-toggle a:visited  {
   margin-top: 16px;
   margin-left: 14px;
@@ -315,7 +315,7 @@ span.caret {
   .slider_container {
     width: 93%;
     margin-left: 34px;
-   } 
+   }
 
   .footer-menu ul {
     margin: auto;
@@ -368,7 +368,7 @@ span.caret {
   margin: 0px 0 20px 0;
 }
 
-.row { 
+.row {
   margin-bottom: 15px;
 }
 
@@ -435,15 +435,15 @@ span.caret {
 a.gotop {
     margin: 30px 0 20px 0;
 /*    display: block;*/
-  }  
+  }
 
 .container .text-muted {
     margin: 20px 0;
     color: #fff;
 }
 
-.container .text-muted a:link, 
-.container .text-muted a:active, 
+.container .text-muted a:link,
+.container .text-muted a:active,
 .container .text-muted a:focus {
     color: #fff;
 }
@@ -454,7 +454,8 @@ a.gotop {
 
 .footer-text {
     text-align: center;
-    color: #7d756f;
+    /*color: #7d756f;*/
+    color: #878585;
     width: 99%;
     margin: 30px 8px;
     font-size: .8rem;
@@ -489,10 +490,11 @@ a.gotop {
 }
 
 .footer-menu li a {
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 6px;
     text-decoration: none;
+    font-size: .7rem;
 }
 
 .footer-menu li a:hover {
@@ -505,7 +507,7 @@ a.gotop {
 }
 
 .img-shadow {
-  box-shadow: 1px 1px 1px  rgb(220, 221, 222); 
+  box-shadow: 1px 1px 1px  rgb(220, 221, 222);
 }
 
 .list-border {
@@ -635,7 +637,7 @@ a.gotop {
     bottom: -82px; /* negative of the offset - height of link element */
     right: 10px; /* padding from the left side of the window */
   /*  background-color: #000;*/
-    
+
 }
 
 #top-link-block.affix {
@@ -672,7 +674,7 @@ a.gotop {
   text-decoration: underline;
 }
 
-img .grey-border {  
+img .grey-border {
     margin: 0 0 15px 0;
     background: url('../images/hr.gif') no-repeat left bottom;
 }
@@ -696,19 +698,19 @@ textarea{
   border: 1px solid #ccc;
 }
 
- input[type="submit"] { 
+ input[type="submit"] {
   background-color: #7ed0e0;
   border: none;
   padding: 5px 6px 3px 6px;
 }
 
- input[type="submit"] { 
+ input[type="submit"] {
   background-color: #7ed0e0;
   border: none;
   padding: 5px 6px 3px 6px;
 }
 
- input[type="submit"]:hover { 
+ input[type="submit"]:hover {
   opacity: .8;
  }
 
@@ -757,7 +759,7 @@ textarea{
   background-color: #7ed0e0;
   color: #fff;
   border: 1px solid #ccc;
- } 
+ }
 
 .caption_title_line a {
   color: #fff;
@@ -861,4 +863,3 @@ img.left_icon {
   background: none;
   margin: 0 20px 0 0;
 }
-
