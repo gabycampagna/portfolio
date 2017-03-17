@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+
+    <link data-require="normalize@*" data-semver="3.0.1" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" />
+    <style>
+      #chart {
+        height:560px;
+        position: relative;
+        width: 560px;
+        margin: 20px 30px;
+      }
+      .tooltip {
+        background: #eee;
+        box-shadow: 0 0 5px #999999;
+        color: #333;
+        display: none;
+        font-size: 12px;
+        left: 130px;
+        padding: 10px;
+        position: absolute;
+        text-align: center;
+        top: 95px;
+        width: 80px;
+        z-index: 10;
+      }
+      .legend {
+        font-size: 12px;
+      }
+      rect {
+        cursor: pointer;
+        stroke-width: 2;
+      }
+      rect.disabled {
+        fill: transparent !important;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div id="chart"></div>
+    <script src="https://d3js.org/d3.v4.min.js" data-semver="4.0.0" data-require="d3@*"></script>
+    <script>
+    var width = 360;
+        height = 360;
+        radius = Math.min(width, height) / 2;
+        donutWidth = 70;
+
+        color = d3.scaleOrdinal(d3.schemeCategory20b);
+
+        // arc genratiotor
+        arc = d3.arc()
+          .innerRadius(radius - donutWidth)
+          .outerRadius(radius);
+
+
+        // pie generator
+        pie = d3.pie()
+          .value(function(d) { return d.count; })
+          .sort(null);
+
+        // define svg
+        svg = d3.select('#chart')
+          .append('svg')
+          .attr('width', width)
+          .attr('height', height)
+          .append('g')
+          .attr('transform', 'translate(' + (width / 2) +
+            ',' + (height / 2) + ')');
+
+        // import data
+        d3.csv('objectives.csv', function(error, data) {
+          data.forEach(function(d) {
+            //parse data
+            d.count = +d.count;
+            d.enabled = true;
+          });
+
+        tooltip = d3.select('#chart')
+          .append('div')
+          .attr('class', 'tooltip');
+
+        tooltip.append('div')
+          .attr('class', 'percent');
+
+        tooltip.append('div')
+          .attr('class', 'count');
+
+        tooltip.append('div')
+          .attr('class', 'label');
+
+        path = svg.selectAll('path')
+          .data(pie(data))
+          .enter()
+          .append('path')
+          .attr('d', arc)
+          .attr('stroke', "#ffffff")
+          .attr('fill', function(d, i) {
+            return color(d.data.label);
+          })
+          .each(function(d) { this._current = d; });
+
+        path.on('mouseover', function(d) {
+          total = d3.sum(data.map(function(d) {
+            return (d.enabled) ? d.count : 0;
+          }));
+          percent = Math.round(1000 * d.data.count / total) / 10;
+          tooltip.select('.label').html(d.data.label);
+          tooltip.select('.count').html(d.data.count + ' hours');
+          tooltip.select('.percent').html(percent + '%');
+          tooltip.style('display', 'block');
+        });
+
+        path.on('mouseout', function() {
+          tooltip.style('display', 'none');
+        });
+
+        //OPTIONAL
+        path.on('mousemove', function(d) {
+          tooltip.style('top', (d3.event.pageY + 10) + 'px')
+            .style('left', (d3.event.pageX + 10) + 'px');
+        });
+
+
+        });
+    </script>
+  </body>
+
+</html>
