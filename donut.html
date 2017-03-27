@@ -77,8 +77,8 @@
 
         // arc for the labels position
     var labelArc = d3.arc()
-          .outerRadius(radius - 30)
-          .innerRadius(radius - 30);
+          .outerRadius(radius - 32)
+          .innerRadius(radius - 32);
 
         // pie generator
         pie = d3.pie()
@@ -149,7 +149,7 @@
         });
 
         // "g element is a container used to group other SVG elements"
-    var g = svg.selectAll("#chart")
+    var g = svg.selectAll('g')
         .data(pie(data))
         .enter().append("g")
         .attr("class", "arc");
