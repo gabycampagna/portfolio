@@ -31,11 +31,14 @@ h6 {
     font-size: 1.4rem;
 }
 
-a  { color: rgb(35, 178, 206); }
-a:visited  { color: rgb(35, 178, 206); }
-a:active  { color: rgb(35, 178, 206); }
+a  {
+  color: rgb(20, 139, 162);
+  cursor: pointer;
+}
+a:visited  { color: rgb(20, 139, 162); }
+a:active  { color: rgb(20, 139, 162); }
 a:hover {
-    color: rgb(35, 178, 206);
+    color: rgb(20, 139, 162);
     text-decoration: underline;
 }
 
@@ -75,8 +78,13 @@ a.navbar-brand-mobile {
   display: none;
 }
 
-.instructor-img > li {
+ul.instructor-img  {
+  margin-left: -40px;
+}
+.instructor-img li {
   display: inline-block;
+  margin-left: 0px;
+  margin-right: 10px;
 }
 
 .img-responsive {
@@ -451,7 +459,7 @@ span.caret {
     text-align: center;
     color: #7d756f;
     bottom: 0;
-    height: 370px;
+    height: 400px;
     margin-top: 20px;
     background-color: #505050;
  /*   border-top: 6px solid rgb(20, 107, 179);*/
@@ -687,21 +695,17 @@ a.gotop {
   text-decoration: none;
 }
 
-.footer-text a:link {
-  color: #ddd;
-  text-decoration: none;
-}
-
-.footer-text a:active {
-  color: #ddd;
-}
-
-.footer-text a:focus {
-  color: #ddd;
-}
-
-.footer-text a:hover {
+.footer-text a:link,
+.footer-text a:visited {
+  color: #878585;
   text-decoration: underline;
+}
+,
+.footer-text a:focus,
+.footer-text a:hover, {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 img .grey-border {
