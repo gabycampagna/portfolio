@@ -29,6 +29,10 @@ h4 {
     font-size: 16px;
 }
 
+a.open-modal {
+  cursor: pointer;
+}
+
 .navbar-default {
   border: none;
   border-bottom: 4px solid #69a1b4;
@@ -160,8 +164,8 @@ h4 {
     color: #fff;
 }
 
-.container .text-muted a:link, 
-.container .text-muted a:active, 
+.container .text-muted a:link,
+.container .text-muted a:active,
 .container .text-muted a:focus {
     color: #fff;
 }
@@ -176,7 +180,7 @@ h4 {
 }
 
 .img-shadow {
-  box-shadow: 1px 1px 1px  rgb(220, 221, 222); 
+  box-shadow: 1px 1px 1px  rgb(220, 221, 222);
 }
 
 .list-border {
@@ -236,7 +240,7 @@ h4 {
 
 /* skill / professional/ photos - Headers */
 
-.skills-title > div, 
+.skills-title > div,
 .pro-title > div {
   font-size: 14px;
   line-height: 18px;
@@ -280,10 +284,10 @@ h4 {
     width: 30px !important;
     height: 30px !important;
 }
-.btn-codepen :link, .btn-codepen:visited {
-    color: #fff
+.btn-codepen:link, .btn-codepen:visited {
+    color: #fff;
 }
-.btn-codepen :active, .btn-codepen:hover {
+.btn-codepen:active, .btn-codepen:hover {
     opacity: .7;
 }
 .btn-github {
@@ -338,7 +342,7 @@ h4 {
     bottom: -82px; /* negative of the offset - height of link element */
     right: 10px; /* padding from the left side of the window */
     background-color: #000;
-    
+
 }
 
 #top-link-block.affix {

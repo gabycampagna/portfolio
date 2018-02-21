@@ -159,8 +159,8 @@ h1 {
     color: #fff;
 }
 
-.container .text-muted a:link, 
-.container .text-muted a:active, 
+.container .text-muted a:link,
+.container .text-muted a:active,
 .container .text-muted a:focus {
     color: #fff;
 }
@@ -209,7 +209,7 @@ h1 {
 }
 
 .img-shadow {
-  box-shadow: 1px 1px 1px  rgb(220, 221, 222); 
+  box-shadow: 1px 1px 1px  rgb(220, 221, 222);
 }
 
 .list-border {
@@ -319,7 +319,7 @@ h1 {
     bottom: -82px; /* negative of the offset - height of link element */
     right: 10px; /* padding from the left side of the window */
     background-color: #000;
-    
+
 }
 
 #top-link-block.affix {
